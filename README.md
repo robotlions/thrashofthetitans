@@ -1,9 +1,7 @@
-# React + Vite
+# Thrash of the Titans!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Written in Vite + React
 
-Currently, two official plugins are available:
+A simple app that randomly generates a random guitar string and note to help guitar students memorize the fretboard.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# thrashofthetitans
+Also features a settable timer to automate the generation function.
