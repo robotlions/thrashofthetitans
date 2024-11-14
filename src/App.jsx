@@ -74,8 +74,8 @@ function App() {
   return (
     <div className="container">
       <div className="row justify-content-center">
-        <div class="col-md-5">
-      <img alt="guitar student" className="image" src={bannerImage3} style={{width:"100%"}}/></div>
+        <div className="col-md-5">
+      <img alt="guitar student" className="image-fluid" src={bannerImage3} style={{width:"100%"}}/></div>
       </div>
       <div className="row justify-content-center" style={{ minHeight: 150 }}>
         <div className="col-md-2" style={{ textAlign: "center",marginTop:40 }}>

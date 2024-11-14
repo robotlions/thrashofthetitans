@@ -1,14 +1,14 @@
 @font-face {
   font-family: metal-mania;
-  src: url(../assets/fonts/MetalMania-Regular.ttf);
+  src: url(../src/assets/fonts/MetalMania-Regular.ttf);
 }
 @font-face {
   font-family: Raleway-Bold;
-  src: url(../assets/fonts/Raleway-Bold.ttf);
+  src: url(../src/assets/fonts/Raleway-Bold.ttf);
 }
 @font-face {
   font-family: Raleway-Medium;
-  src: url(../assets/fonts/Raleway-Medium.ttf);
+  src: url(../src/assets/fonts/Raleway-Medium.ttf);
 }
 
 h3{
