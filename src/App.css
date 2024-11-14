@@ -1,0 +1,40 @@
+@font-face {
+  font-family: metal-mania;
+  src: url(../assets/fonts/MetalMania-Regular.ttf);
+}
+@font-face {
+  font-family: Raleway-Bold;
+  src: url(../assets/fonts/Raleway-Bold.ttf);
+}
+@font-face {
+  font-family: Raleway-Medium;
+  src: url(../assets/fonts/Raleway-Medium.ttf);
+}
+
+h3{
+  font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+}
+
+
+.btn{
+  border-radius: 2px !important;
+  box-shadow: 2px 2px 2px gray;
+}
+
+.resultText{
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.textBox{
+  border: 1px solid black;
+  height:100%;
+  vertical-align: middle;
+  min-height:50px;
+  
+}
+
+.container{
+ font-family: "Raleway-Medium", Arial, Helvetica, sans-serif;
+  min-height:110vh;
+}
