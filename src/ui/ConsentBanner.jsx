@@ -34,26 +34,34 @@ const CookieConsentBanner = () => {
   if (!showBanner) return null;
 
   return (
-    <div style={bannerStyle}>
+    <div style={bannerStyle.banner}>
       <p>
         This website uses cookies to measure useful analytics. Do you accept?
       </p>
-      <button onClick={() => handleConsent(true)}>Accept</button>
-      <button onClick={() => handleConsent(false)}>Decline</button>
+      <button style={bannerStyle.button} onClick={() => handleConsent(true)}>Accept</button>
+      <button style={bannerStyle.button} onClick={() => handleConsent(false)}>Decline</button>
     </div>
   );
 };
 
 const bannerStyle = {
+  banner:{
   position: "fixed",
   bottom: 0,
   left: 0,
   width: "100%",
-  backgroundColor: "#000",
+  backgroundColor: "#33cc33",
   color: "#fff",
   textAlign: "center",
   padding: "10px",
-  border: "none",
+  },
+  button:{
+border: "none",
+padding: 5,
+margin: 5,
+width:100,
+borderRadius: 5,
+  }
 };
 
 export default CookieConsentBanner;
