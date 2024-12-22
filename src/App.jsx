@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 import { useState, useRef } from "react";
 import bannerImage3 from"./assets/images/banner3.png";
+import CookieConsentBanner from "./ui/ConsentBanner";
 
 function App() {
   const [currentNote, setCurrentNote] = useState(" ");
@@ -73,6 +74,7 @@ function App() {
 
   return (
     <div className="container">
+      <CookieConsentBanner />
       <div className="row justify-content-center">
         <div className="col-md-5">
       <img alt="guitar student" className="image-fluid" src={bannerImage3} style={{width:"100%"}}/></div>
